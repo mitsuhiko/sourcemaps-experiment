@@ -1,0 +1,11 @@
+[package]
+name = "parsing-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+swc_common = "0.17.25"
+swc_ecma_ast = "0.77.1"
+swc_ecma_parser = "0.103.0"

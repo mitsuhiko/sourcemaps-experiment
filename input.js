@@ -30,5 +30,5 @@ try {
     demoCrashWrapper();
 }
 catch (e) {
-    console.log("stack: + " + e.stack);
+    console.log(e);
 }

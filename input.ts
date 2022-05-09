@@ -33,6 +33,6 @@ demoCrashWrapper.property = 42;
 try {
   demoCrashWrapper();
 } catch (e) {
-  console.log("stack: + " +e.stack);
+  console.log(e);
 }
 
